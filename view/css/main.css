@@ -1,0 +1,195 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,span,a {
+    margin:0;
+    padding:0;
+    font-family: 'RobotoLight' !important;
+}
+html{
+    background: #f9f9f9;
+}
+.font-regular{
+    font-family: 'RobotoRegular' !important;
+}
+/*MENU LATERAL*/
+.column-left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 250px;
+    background: #444;
+    box-shadow: #222 0 0 2px;
+}
+.column-left header{
+    background: #333;
+    padding: 20px 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+.logo-main{
+    display: block;
+    margin: 0 auto;
+}
+.text-welcome{
+    text-align: center;
+    padding:5px 20px;
+    color: #999;
+    font-weight: 100;
+    border-right:#9BCE33 5px solid;
+    background: #343434;
+    font-size: 16px;
+}
+.text-welcome b{
+    color: #f0f0f0;
+}
+.item-menu{
+    display: block;
+    color: #fff;
+    padding:10px 10px;
+    background: #444;
+    font-size: 14px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.item-menu:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #222;
+    border-right: 7px solid #9BCE33;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.item-menu i{
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 25px;
+}
+.btn-logout{
+    display: block;
+    background: #393939;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+
+}
+.btn-logout:hover{
+    text-decoration: none;
+    background: #d34747;
+    color: #fff;
+}
+/*MENU LATERAL*/
+
+.header-pages{
+    display: block;
+    background: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    box-shadow: #333 0 0 2px;
+    padding-bottom: 0;
+}
+
+/*LISTAGEM*/
+.header-list{
+    display: block;
+    background: #333;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 0;
+    box-shadow: #999 0px 0px 2px;
+}
+.list-items{
+    display: block;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    margin-top:0;
+    list-style: none;
+    box-shadow: #999 0px 0px 2px;
+
+}
+.icon-category-list{
+    background: #0BA2C3;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+.list-items li p{
+    margin: 0;
+}
+.list-items li span.detail{
+    font-size: 17px;
+    font-weight: 100;
+    color: #999;
+}
+.list-items li{
+    margin: 0 !important;
+}
+.list-items li:hover{
+    background: #f0f0f0;
+    color: #2a80b9;
+}
+.footer-pagination{
+    text-align: center;
+    margin: 30px 0;
+}
+.footer-pagination .page{
+    color: #333;
+    background: #fff;
+    padding: 10px 15px;
+    margin:0 2px;
+    list-style: none;
+    box-shadow: #999 0px 0px 2px;
+}
+.footer-pagination .page.current-page{
+    text-decoration: none;
+    background: #2a80b9;
+    color: #fff;
+}
+.footer-pagination .page:hover{
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+}
+/*LISTAGEM*/
+
+
+/*EDITA*/
+.box-icons{
+    display: block;
+    overflow: auto;
+    height: 250px;
+}
+.list-icon li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-icon li label{
+    display: block;
+    font-size: 21px;
+    width: 32px;
+    height: 40px;
+    padding: 3px;
+    margin: 1px;
+}
+.list-icon li label:hover{
+    background: #008dc5;
+    color: #fff;
+}
+.list-icon li label.active{
+    background: #008dc5;
+    color: #fff;
+}
